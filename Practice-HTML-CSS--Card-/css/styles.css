@@ -1,0 +1,295 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+background-image: url(./../img/Background.png);
+background-color: black;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/*HEADER STYLES
+HEADER 
+HEADER
+V
+V
+V
+*/
+
+#topBar{
+    height: 110px;
+    width: 100%;
+    background-color: rgba(12, 12, 12, 0.7);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.mainNav{
+
+    width:400px;
+    height:100%;
+    margin-bottom: 50px;
+
+}
+
+#nav{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    letter-spacing: 2px;
+    margin: auto;
+
+    
+}
+
+#titleNav{
+    color:#F8F6F6;
+    font-family: Lato;
+    width: 400px;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+#title{
+    font-size: 45px;
+    margin-right: 10%;
+    text-align: center;
+}
+
+#authorName{
+    font-size: 10px;
+    text-align: center;
+    margin-right: 10%;
+}
+
+#subTitle{
+    margin-right: 10%;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+
+.linkElement{
+    margin-top: 10%;
+    margin-left: 10%;
+    font-style: Lato;
+    text-transform: uppercase;
+    list-style: none;
+    color: #F8F6F6;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.navLink{
+    cursor: pointer;
+}
+
+.linkElement:hover{
+    transition: color  ease-out 500ms;
+    color: rgba(145, 15, 107);
+    cursor: pointer;
+}
+
+
+
+/*CONTENT
+
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+*/
+
+.contentMain{
+    padding-top: 20px;
+    width: 100 vw;
+    height: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.sideAlbumBox{
+    width: auto;
+    height: auto;
+    background-color: rgba(12, 12, 12, 0.7);
+    display: flex;
+    justify-content: left;
+
+}
+
+.sideAlbums{
+    margin: 25px;
+    list-style: none;
+}
+
+
+.sideAlbumIcon{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+
+}
+
+.sideAlbumIcon:hover{
+    cursor: pointer;
+    transition: ease-in-out 500ms;
+    transform: scale(1.3);
+}
+
+
+
+
+/*SLIDE
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+*/
+
+.slideBox{
+
+    width:800px;
+    height: 800px;
+
+}
+
+/*SIDEBAR RIght
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+!!!!
+!!!!
+!!!!
+
+*/
+
+.sideBarRight{
+
+   
+    width: auto;
+    height: auto;
+    background-color: rgba(12, 12, 12, 0.7);
+    display: flex;
+    
+
+}
+
+.sideBio{
+    width: 300px;
+    color: #E7E5E5;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.bioPhoto{
+    width: 200px;
+    margin: 20px;
+}
+
+#bioText{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+/*footer*/
+
+
+footer{
+
+    width: 100 vw;
+    height: 200px;
+    margin: 100px 0 0 0;
+    background-color: rgba(12, 12, 12, 0.7);
+    
+
+}
+
+
+
+.footerInfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+    height:200px;
+
+
+}
+
+.copyrightInfo{
+    color: white;
+    padding-top:100px;
+    width: 400px;
+    margin-left: 50px;
+    
+}
+
+.footerLogo{
+
+    padding-top: 30px;
+    width: 420px;
+    margin-right: 50px;
+
+}
+
+
+.socialList{
+    
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top:75px;
+}
